@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.uv/
+.ruff_cache/
+
+# Build outputs
+output/
+*.ttf
+!fonts/*.ttf
+
+# Local configurations and non-redistributable source fonts
+*jinkai*
+*今楷*
+fonts/仓耳今楷*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+

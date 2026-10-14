@@ -1,0 +1,31 @@
+# JKaiMono Build Configuration
+
+font:
+  family_name: "JKaiMono"
+  version: "2.0"
+  author: "onenora"
+  copyright: "Copyright (c) 2021-2026 LXGW; Nerd Fonts under MIT."
+  description: "LXGW WenKai Mono Screen + Symbols Nerd Font Mono 2:1 CJK monospace coding font."
+  url: "https://github.com/onenora/JKaiMono"
+  license: "This font is licensed under the SIL Open Font License, Version 1.1. Nerd Fonts: MIT."
+  license_url: "https://openfontlicense.org"
+
+fonts_dir: "fonts"
+nerd_font: "SymbolsNerdFontMono-Regular.ttf"
+
+styles:
+  Regular:
+    base_font: "LXGWWenKaiMonoScreen.ttf"
+    display_name: "Regular"
+    output_filename: "JKaiMono.ttf"
+
+build:
+  styles: "Regular"
+  output_dir: "output/fonts"
+  parallel: 1
+
+width:
+  monospace: true
+  en_width: 1024
+  cn_width: 2048
+  visual_scale: 1.0
